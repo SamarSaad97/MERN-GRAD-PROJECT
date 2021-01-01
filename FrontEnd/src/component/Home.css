@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+}
+.homeContainer {
+  background: url("");
+
+  height: 100vh;
+}
+.bar {
+  height: 100vh;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-position: 20% 10%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.confirmButton {
+  margin-left: 900px;
+  margin-bottom: 500px;
+}
+.confirmSSN {
+  width: 100%;
+}
+.removeSSN {
+  width: 100%;
+}
+.users {
+  padding: 60px;
+  width: 20%;
+  height: 40%;
+  margin-left: 400px;
+}
+.usersText {
+  margin-right: 50px;
+}
+.box {
+  position: absolute;
+  margin-top: -20px;
+  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+}
+.confirmForm input[type="text"] {
+  padding-left: 5px;
+  inline-size: 200px;
+  display: flex;
+  margin: auto;
+}
+.search {
+  margin-right: 5px;
+  width: 50%;
+  height: 40px;
+}
+.searchButton {
+  height: 40px;
+  width: 100px;
+}

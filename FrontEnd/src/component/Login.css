@@ -1,0 +1,22 @@
+.loginForm {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.backGround {
+  background-image: url("1211359-bicycle-wallpaper.jpg");
+}
+.password {
+  background: transparent;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.cont {
+  display: inline-block;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
